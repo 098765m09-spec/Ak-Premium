@@ -744,21 +744,35 @@ section {
     }
 
     .product-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
 
     .product {
-        padding: 1rem;
+        padding: 0.8rem;
         border-radius: 12px;
     }
 
     .product h3 {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
     .product img {
-        height: 130px;
+        height: 100px;
+    }
+
+    .product p {
+        font-size: 0.8rem;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+
+    .buy-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+        margin-top: 0.5rem;
     }
 
     h2 {
@@ -887,33 +901,33 @@ section {
     }
 
     .product-grid {
-        grid-template-columns: 1fr;
-        gap: 0.8rem;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.6rem;
     }
 
     .product {
-        padding: 0.8rem;
+        padding: 0.6rem;
     }
 
     .product img {
-        height: 110px;
+        height: 80px;
     }
 
     .product h3 {
-        font-size: 0.9rem;
-    }
-
-    .product p {
-        font-size: 0.8rem;
-    }
-
-    button, .buy-btn {
-        padding: 0.6rem 1rem;
         font-size: 0.85rem;
     }
 
+    .product p {
+        font-size: 0.7rem;
+    }
+
+    button, .buy-btn {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
     .price {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
     .trust-badges {
